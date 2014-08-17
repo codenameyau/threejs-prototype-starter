@@ -8,7 +8,7 @@
 #
 # Example:
 # chmod 700 rename.sh
-# ./rename.sh StarterApp StarterApp
+# ./rename.sh StarterApp Badass
 
 if [ $1 ] && [ $2 ]; then
   # Rename files in src
