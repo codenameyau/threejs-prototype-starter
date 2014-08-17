@@ -1,5 +1,5 @@
 /*-------JSHint Directives-------*/
-/* global StarterApp           */
+/* global StarterApp             */
 /*-------------------------------*/
 'use strict';
 
@@ -8,9 +8,8 @@
  * Main Program *
  ****************/
 (function() {
-  var city = new StarterApp();
-  console.log(city);
-  city.enableFloorGrid();
-  city.updateScene();
+  var app = new StarterApp();
+  app.enableFloorGrid();
+  app.updateScene();
 
 })();

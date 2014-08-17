@@ -1,4 +1,6 @@
-/* global StarterApp */
+/*-------JSHint Directives-------*/
+/* global StarterApp             */
+/*-------------------------------*/
 'use strict';
 
 

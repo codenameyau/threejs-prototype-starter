@@ -4,9 +4,9 @@
 'use strict';
 
 
-/**********************
- * HUD Renderer Pause *
- **********************/
+/*************************
+ * App HUD Pause Message *
+ *************************/
 StarterApp.prototype.enablePausedHUD = function() {
   var container = document.createElement('div');
   container.className = 'hud-paused';
